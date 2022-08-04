@@ -1,0 +1,9 @@
+String a="GOKUL GOKULK GOKULKK";
+      String c="";
+        String c1="";
+          String c2="";
+       String[] b=a.split(" ");
+          c=b[0];
+          c1=b[1];
+          c2=b[2];
+       System.out.println(c);
