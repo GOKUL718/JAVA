@@ -1,6 +1,3 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
 class HelloWorld {
     public static void main(String[] args) {
       String a="GOKUL";
@@ -27,8 +24,19 @@ class HelloWorld {
       int f2=a.compareToIgnoreCase(b);
       System.out.println("Both the b & a is Compare IgnoreCase : "+f2+"\n");
       
+      boolean g=a.startsWith("G");
+      System.out.println("String Starts with : "+g);
+      boolean g1=a.endsWith("L");
+      System.out.println("String End  with   : "+g1+"\n");
       
-      
-      
+      int h=a.indexOf('O');
+      System.out.println("The index of vlaue character :"+h);
+      int h1=a.indexOf("GO");
+      System.out.println("The index of vlaue String :"+h1);
+      String h2="GOKUL GOKUL";
+      int h3=h2.indexOf('G',1);
+      System.out.println("The index of vlaue char after given index :"+h3);
+      int h4=h2.lastIndexOf('L');
+      System.out.println("The Last index vlaue of char  :"+h4+"\n");
     }
 }
