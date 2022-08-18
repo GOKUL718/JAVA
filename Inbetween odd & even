@@ -1,0 +1,37 @@
+class HelloWorld {
+    public static void main(String[] args) {
+    String a="0123456789";
+      char[] b=a.toCharArray();
+      String even="";
+      String odd="";
+       String rev="";
+       String com="";
+      for(int i=0;i<a.length();i++)
+      {
+          if(b[i]%2==0)
+          {
+          even=even+b[i];
+          }
+      }
+      for(int j=0;j<a.length();j++)
+      {
+          if(b[j]%2!=0)
+          {
+          odd=odd+b[j];
+          }
+         
+      }
+      char[] even2=even.toCharArray();
+      for(int k=even.length()-1;k>=0;k--)
+      {
+         rev=rev+even2[k];
+      }
+       char[] odd1=odd.toCharArray();
+       char[] even1=rev.toCharArray();
+       for(int l=0;l<=4;l++)
+       {
+         com =com+odd1[l]+even1[l];
+       }
+      System.out.print(com);
+    }
+}
