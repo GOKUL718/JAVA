@@ -1,0 +1,22 @@
+public class ClassNameHere {
+   public static void main(String[] args) {
+   //Scanner str=new Scanner(System.in); 
+     // String a=str.nextLine();
+      String a="GOKUL JAGA DHUVARA KASE";
+        String[] b=a.split(" ");
+        String d="";
+        String e="";
+        int j;
+        for(int i=0;i<b.length;i++)
+        {
+           char[] c=b[i].toCharArray();
+            for(j=c.length-1;j>=0;j--)
+            {
+                d=d+c[j];
+            }
+           e=e+d+" ";
+           d=""; 
+        }
+      System.out.print(e);
+   }
+}
