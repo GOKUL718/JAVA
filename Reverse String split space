@@ -2,6 +2,7 @@ public class ClassNameHere {
    public static void main(String[] args) {
    //Scanner str=new Scanner(System.in); 
      // String a=str.nextLine();
+     
       String a="GOKUL JAGA DHUVARA KASE";
         String[] b=a.split(" ");
         String d="";
