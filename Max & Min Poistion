@@ -21,6 +21,5 @@ class HelloWorld {
       char MIN=(char)min;
       System.out.println("MAXIMUM POISTION : "+MAX);
       System.out.println("MINIMUM POISTION : "+MIN);
-    }
-    
+    }  
 }
