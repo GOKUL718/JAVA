@@ -15,5 +15,6 @@ class HelloWorld {
           {
              System.out.print("NOT PALINDROME");
           }
+          
     }
 }
