@@ -1,6 +1,7 @@
 public class ClassNameHere {
    public static void main(String[] args) {
       // Merge or Concatenate
+      
       int[] a={1,2,3,4,5};
       int[] b={6,7,8,9,9};
       String d="";
