@@ -40,7 +40,5 @@ public class dofor {
         System.out.println("Positive numbers: " + countPositive);
         System.out.println("Negative numbers: " + countNegative);
         System.out.println("Zero numbers: " + countZero);
-
 	}
-
 }
